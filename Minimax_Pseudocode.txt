@@ -1,0 +1,21 @@
+START
+
+IF current node is a leaf node THEN
+
+    Return node value.
+
+END IF
+
+IF current player is MAX THEN
+
+    Choose maximum value among child nodes.
+
+ELSE
+
+    Choose minimum value among child nodes.
+
+END IF
+
+Return selected value.
+
+STOP

@@ -1,0 +1,37 @@
+START
+
+Create a priority queue.
+
+Insert start node.
+
+Set cost of start node as 0.
+
+WHILE queue is not empty DO
+
+    Remove node having lowest f(n).
+
+    IF node is goal THEN
+
+        Display shortest path.
+
+        STOP.
+
+    END IF
+
+    FOR each neighbouring node
+
+        Calculate
+
+        g(n) = path cost
+
+        h(n) = heuristic
+
+        f(n) = g(n) + h(n)
+
+        Insert neighbour into queue.
+
+    END FOR
+
+END WHILE
+
+STOP

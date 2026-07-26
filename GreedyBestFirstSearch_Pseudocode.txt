@@ -1,0 +1,23 @@
+START
+
+Create a priority queue.
+
+Insert start node.
+
+WHILE queue is not empty DO
+
+    Remove node with lowest heuristic value.
+
+    Visit the node.
+
+    IF goal node is reached THEN
+
+        STOP.
+
+    END IF
+
+    Insert all neighbouring nodes.
+
+END WHILE
+
+STOP

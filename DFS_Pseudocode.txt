@@ -1,0 +1,19 @@
+START
+
+Create an empty visited set.
+
+Visit the start node.
+
+Mark it as visited.
+
+FOR every adjacent node
+
+    IF node is not visited THEN
+
+        Call DFS for that node.
+
+    END IF
+
+END FOR
+
+STOP

@@ -1,0 +1,25 @@
+START
+
+Create a priority queue.
+
+Insert start node with cost 0.
+
+WHILE priority queue is not empty DO
+
+    Remove node having minimum cost.
+
+    IF node is goal THEN
+
+        Display solution.
+
+        STOP.
+
+    END IF
+
+    Expand the node.
+
+    Add neighbouring nodes with updated cost.
+
+END WHILE
+
+STOP

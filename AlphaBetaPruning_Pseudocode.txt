@@ -1,0 +1,29 @@
+START
+
+Set Alpha = -∞
+
+Set Beta = +∞
+
+Traverse the game tree.
+
+IF node is MAX THEN
+
+    Update Alpha.
+
+ELSE
+
+    Update Beta.
+
+END IF
+
+IF Alpha ≥ Beta THEN
+
+    Prune remaining branches.
+
+END IF
+
+Continue until goal is reached.
+
+Return optimal value.
+
+STOP
