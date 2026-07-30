@@ -1,0 +1,21 @@
+Algorithm: Water Jug Problem
+
+1. Start.
+2. Initialize both jugs as empty.
+3. Create a queue to store states.
+4. Add the initial state (0,0) to the queue.
+5. Mark the state as visited.
+6. Remove the first state from the queue.
+7. Check if either jug contains the target quantity.
+8. If yes, print the solution path and stop.
+9. Otherwise, generate all possible next states:
+   a. Fill Jug 1.
+   b. Fill Jug 2.
+   c. Empty Jug 1.
+   d. Empty Jug 2.
+   e. Pour water from Jug 1 to Jug 2.
+   f. Pour water from Jug 2 to Jug 1.
+10. Add all unvisited states to the queue.
+11. Repeat Steps 6–10 until the target is found.
+12. If no solution exists, print "No Solution".
+13. Stop.

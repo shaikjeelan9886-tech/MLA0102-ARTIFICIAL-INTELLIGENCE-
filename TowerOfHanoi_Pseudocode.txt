@@ -1,0 +1,12 @@
+Algorithm: Tower of Hanoi
+
+1. Start.
+2. Read the number of disks (N).
+3. If N = 1:
+      a. Move the disk from Source to Destination.
+      b. Return.
+4. Move N−1 disks from Source to Auxiliary.
+5. Move the largest disk from Source to Destination.
+6. Move N−1 disks from Auxiliary to Destination.
+7. Repeat until all disks are moved.
+8. Stop.

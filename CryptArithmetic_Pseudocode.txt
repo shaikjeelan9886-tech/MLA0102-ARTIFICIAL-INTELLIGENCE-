@@ -1,0 +1,15 @@
+Algorithm: Crypt Arithmetic Problem
+
+1. Start.
+2. Read the given words (SEND + MORE = MONEY).
+3. Assign a unique digit (0–9) to each letter.
+4. Ensure that the leading letters are not assigned zero.
+5. Convert each word into its numeric value.
+6. Check whether:
+      SEND + MORE = MONEY
+7. If the equation is true:
+      a. Print the digit assignments.
+      b. Print the solution.
+8. Otherwise, try another digit assignment.
+9. Repeat until a valid solution is found.
+10. Stop.
