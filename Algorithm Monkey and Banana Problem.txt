@@ -1,0 +1,22 @@
+Algorithm: Monkey and Banana Problem
+
+START
+
+1. Initialize:
+      Monkey = Door
+      Box = Window
+      Banana = Center
+
+2. Move the monkey to the box.
+
+3. Push the box to the position under the banana.
+
+4. Move the monkey along with the box.
+
+5. Climb onto the box.
+
+6. Pick the banana.
+
+7. Display "Goal Achieved: Monkey has the banana."
+
+STOP
