@@ -1,0 +1,12 @@
+Algorithm: Sum of 1 to N using Recursion
+
+START
+
+1. Read the value of N.
+2. Define a recursive function sum_n(N).
+3. If N = 1, return 1.
+4. Otherwise, return N + sum_n(N - 1).
+5. Call the function.
+6. Display the sum.
+
+STOP
